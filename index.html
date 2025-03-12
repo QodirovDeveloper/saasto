@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="/images/Icon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'Inter', 'sans-serif'],
+            inter: ['Inter', 'sans-serif'],
+            poppins: ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            first: '#1C0E0D',
+            second: '#FF553E',
+            third: '#404040',
+          }
+        }
+      }
+    }
+  </script>
+  <title>SaaSto</title>
+</head>
+
+<body>
+
+  <header class="">
+    <div class="relative bg-[#FFF8F2] w-full h-[800px]">
+      <div class="container mx-auto pt-2 sm:pt-7">
+        <nav class="flex items-center justify-between sm:ml-4 lg:ml-20 sm:mr-4 lg:mr-20 ml-2 mr-2">
+          <a class="" href="#">
+            <img class="hover:translate-x-5 transition duration-300" src="/images/Logo.svg" alt="Logo">
+          </a>
+          <ul class="lg:flex sm:hidden hidden items-center gap-10 text-first font-poppins font-normal text-[18px]">
+            <li class="">
+              <a href="/" class="p-2 btn">Demos</a>
+            </li>
+            <li class="">
+              <a href="/" class="p-2 btn">Features</a>
+            </li>
+            <li class="">
+              <a href="/" class="p-2 btn">Pricing</a>
+            </li>
+            <li class="">
+              <a href="/" class="p-2 btn">Contact</a>
+            </li>
+          </ul>
+          <div class="sm:flex hidden items-center gap-2 font-poppins font-semibold text-first text-[18px]">
+            <a href="#" class="text-second hover:bg-second hover:text-second duration-300 px-8 py-4 hover:text-white rounded-full ">Login</a>
+            <a href="#" class="hover:bg-transparent hover:text-second duration-300 px-8 py-4 bg-second  text-white rounded-full border-[1px] border-second">Sign up</a>
+          </div>
+          <div class="text-second text-[34px] sm:hidden">
+            <a href="#">
+              <i class="fa-solid fa-bars fa-flip"></i>
+            </a>
+          </div>
+        </nav>
+        <ul class="lg:hidden hidden sm:flex ml-4 mr-4 mt-4 items-center gap-10 text-first font-poppins font-normal text-[18px]">
+          <li class="">
+            <a href="/" class="p-2 btn">Demos</a>
+          </li>
+          <li class="">
+            <a href="/" class="p-2 btn">Features</a>
+          </li>
+          <li class="">
+            <a href="/" class="p-2 btn">Pricing</a>
+          </li>
+          <li class="">
+            <a href="/" class="p-2 btn">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--
+  sm	640px	@media (min-width: 640px) { ... }
+  md	768px	@media (min-width: 768px) { ... }
+  lg	1024px	@media (min-width: 1024px) { ... }
+  xl	1280px	@media (min-width: 1280px) { ... }
+  2xl	1536px	@media (min-width: 1536px) { ... }
+  -->
+
+
+</body>
+
+</html>
