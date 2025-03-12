@@ -38,18 +38,25 @@
 <body>
 
   <header class="">
-    <div class="relative bg-[#FFF8F2] w-full h-[1000px]">
-      <img class="mx-auto top-[20px] left-0 right-0 absolute z-10" src="/images/bg-chiziklar.png" alt="bg">
-      <img class="hidden lg:block mx-auto absolute top-36 left-[100px] z-20  right-[1280px]" src="/images/Clock.png" alt="Clock">
-      <img class="hidden lg:block mx-auto absolute top-[330px] left-[10px] z-20  w-[300px]" src="/images/Mobile1.png" alt="Clock">
-      <img class="hidden lg:block mx-auto absolute top-[400px] left-[900px]  z-10" src="/images/chek.png" alt="Clock">
-      <img class="hidden lg:block mx-auto absolute top-[400px]  right-0 w-[400px] z-0" src="/images/Mobile2.png" alt="Clock">
+    <div class="bg-[#FFF8F2] w-full h-[1000px]">
+      <div class="container m-auto relative">
+
+        <img class="hover:translate-y-2 transition duration-300 mx-auto top-[20px] left-0 right-0 absolute z-10" src="/images/bg-chiziklar.png" alt="bg">
+        <img class="hover:rotate-180 transition duration-300 hidden lg:block mx-auto absolute top-36 left-[100px] z-20  right-[1280px]" src="/images/Clock.png"
+        alt="Clock">
+        <img class="hidden lg:block mx-auto absolute top-[330px] left-[10px] z-20  w-[300px]" src="/images/Mobile1.png"
+        alt="Mobile">
+        <img class="hover:-rotate-12 transition duration-300 hidden lg:block mx-auto absolute top-[400px] left-[900px]  z-10" src="/images/chek.png" alt="chek">
+        <img class="hidden lg:block mx-auto absolute top-[330px]  right-[0px] w-[400px] z-0" src="/images/Mobile2.png"
+        alt="images">
+      </div>
+
       <div class="container mx-auto pt-2 sm:pt-7">
-        <nav class="flex items-center justify-between sm:ml-4 lg:ml-20 sm:mr-4 lg:mr-20 ml-2 mr-2">
-          <a class="" href="#">
+        <nav class="z-50 flex items-center justify-between sm:ml-4 lg:ml-20 sm:mr-4 lg:mr-20 ml-2 mr-2">
+          <a class="z-50" href="#">
             <img class="hover:translate-x-5 transition duration-300" src="/images/Logo.svg" alt="Logo">
           </a>
-          <ul class="lg:flex sm:hidden hidden items-center gap-9 text-first font-poppins font-normal text-[18px]">
+          <ul class="z-50 lg:flex sm:hidden hidden items-center gap-9 text-first font-poppins font-normal text-[18px]">
             <li class="">
               <a href="/" class="p-2 btn">Demos</a>
             </li>
@@ -63,12 +70,14 @@
               <a href="/" class="p-2 btn">Contact</a>
             </li>
           </ul>
-          <div class="sm:flex hidden items-center gap-1 font-poppins font-semibold text-first text-[18px]">
+          <div class="z-50 sm:flex hidden items-center gap-1 font-poppins font-semibold text-first text-[18px]">
             <a href="#"
-              class="text-second hover:bg-second hover:text-second duration-300 px-8 py-4 hover:text-white rounded-full ">Login</a>
+              class="text-second hover:bg-second hover:text-second duration-300 px-8 py-4 hover:text-white rounded-full ">Login
+            </a>
             <a href="#"
-              class="hover:bg-transparent hover:text-second duration-300 px-8 py-4 bg-second  text-white rounded-full border-[1px] border-second">Sign
-              up</a>
+              class="hover:bg-transparent hover:text-second duration-300 px-8 py-4 bg-second text-white rounded-full border-[1px] border-second">Sign
+              up
+            </a>
           </div>
           <div class="text-second text-[34px] sm:hidden">
             <a href="#">
@@ -92,8 +101,11 @@
           </li>
         </ul>
       </div>
-      <div class="ml-2 mr-2 container sm:flex items-center justify-center flex-col lg:mt-32 mt-16 sm:mx-auto sm:text-center">
-        <h1 class="z-20 text-[28px] max-w-[280px] text-start text-first sm:mx-auto font-bold sm:text-6xl sm:max-w-[700px]">A
+      <div
+        class="ml-2 mr-2 container sm:flex items-center justify-center flex-col lg:mt-32 mt-16 sm:mx-auto sm:text-center">
+        <h1
+          class="z-20 text-[28px] max-w-[280px] text-start text-first sm:mx-auto font-bold sm:text-6xl sm:max-w-[700px]">
+          A
           collaborative Time Tracking that you
           Need</h1>
         <p class="text-[16px] max-w-[300px] text-third font-normal sm:text-[20px] sm:max-w-[610px] sm:mx-auto">An enim
@@ -106,6 +118,16 @@
       </div>
     </div>
   </header>
+
+  <main>
+    <div class="container mx-auto w-full">
+      <div class="bg-url[('/images/bg2.png')] absolute top-[1] h-[600px]">
+        <img class="relative mx-auto right-0 left-0 container z-50 top-[-300px]" src="/images/bg2.png"
+          alt="background images">
+
+      </div>
+    </div>
+  </main>
 
   <!--
   sm	640px	@media (min-width: 640px) { ... }
